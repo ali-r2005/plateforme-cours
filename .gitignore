@@ -1,3 +1,21 @@
+# Node modules (dependencies)
+auth-services/node_modules/
+auth-services/package-lock.json
+auth-services/yarn.lock
+course-services/node_modules/
+course-services/package-lock.json
+course-services/yarn.lock
+course-services/.env/
+student-services/node_modules/
+student-services/package-lock.json
+student-services/yarn.lock
+student-services/.env/
+teacher-services/node_modules/
+teacher-services/package-lock.json
+teacher-services/yarn.lock
+teacher-services/.env/
+admin-services/node_modules/
+
 # Logs
 logs
 *.log
