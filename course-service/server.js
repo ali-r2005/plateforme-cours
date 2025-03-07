@@ -56,9 +56,9 @@ app.delete('/delete/:id', authenticateToken, async (req, res) => {
     }
 });
 
-app.get("/search/:titre", authenticateToken, async (req, res) => {
+app.get("/search", authenticateToken, async (req, res) => {
     try{
-        const { titre } = req.params;
+        const { titre } = req.query;
         const course = await Course.find({titre:titre});
         res.json(course);
     }catch(err){
